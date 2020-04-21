@@ -30,6 +30,14 @@ class MainActivity : AppCompatActivity() {
         val result=a*b
         textView.text="Result: $result"
     }
+    
+
+    fun div(view: View){
+        val a=number1.text.toString().toInt()
+        val b=number2.text.toString().toInt()
+        val result=a/b
+        textView.text="Result: $result"
+    }
 
 
 
