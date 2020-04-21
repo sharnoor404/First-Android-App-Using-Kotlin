@@ -11,5 +11,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-
+    fun add(view: View){
+        val a=number1.text.toString().toInt()
+        val b=number2.text.toString().toInt()
+        val result=a+b
+        textView.text="Result: $result"
+    }
+    
 }
